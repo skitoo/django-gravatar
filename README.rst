@@ -12,7 +12,7 @@ The best way to install Django Gravatar is use easy_install.
 
 ::
 
-   easy_install django-gravatar
+   easy_install django-simple-gravatar
    
 If you prefer install it from source, grab the git repository from github and run setup.py
 
