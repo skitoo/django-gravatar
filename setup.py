@@ -29,6 +29,5 @@ setup(
       license = 'New BSD License',
       platforms = ['OS Independent'],
       classifiers = CLASSIFIERS,
-      install_requires = ['Django>=1.3.1'],
       packages = find_packages() 
 )
