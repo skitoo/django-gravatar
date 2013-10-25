@@ -8,10 +8,10 @@ Django Gravatar is a lightweight Django application that allows you to insert a 
 
 ## Get it
 
-The best way to install Django Gravatar is use easy_install.
+The best way to install Django Gravatar is use pip.
 
 ```
-easy_install django-simple-gravatar
+pip install django-simple-gravatar
 ```
 
 If you prefer install it from source, grab the git repository from github and run setup.py
