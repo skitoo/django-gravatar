@@ -1,5 +1,8 @@
 # Django Gravatar
 
+[![PyPI version](https://badge.fury.io/py/django-simple-gravatar.png)](http://badge.fury.io/py/django-simple-gravatar)
+[![Downloads](https://pypip.in/d/django-simple-gravatar/badge.png)](https://crate.io/packages/django-simple-gravatar)
+
 Django Gravatar is a lightweight Django application that allows you to insert a Gravatar image in your templates.
 
 
