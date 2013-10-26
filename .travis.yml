@@ -13,3 +13,6 @@ install:
 
 script:
     - tox -e py${TRAVIS_PYTHON_VERSION/./}-${DJANGO_VERSION}  
+
+after_success:
+  - coveralls
