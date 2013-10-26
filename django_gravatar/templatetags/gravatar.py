@@ -18,7 +18,10 @@ def gravatar_url(email, size=80):
     if GRAVATAR_SECURE:
         url += 's'
     url += '://www.gravatar.com/avatar/'  + hashlib.md5(email.lower().encode('utf-8')).hexdigest() + '?'
-    url += urlencode({'d': GRAVATAR_DEFAULT_URL, 's': str(size)})
+    url += urlencode([
+        ('s', str(size)),
+        ('d', GRAVATAR_DEFAULT_URL)
+    ])
     return url
 
 
