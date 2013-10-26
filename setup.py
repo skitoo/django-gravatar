@@ -23,7 +23,7 @@ setup(
       name = 'django-simple-gravatar',
       version = django_gravatar.__version__,
       description = 'Django Gravatar is a lightweight Django application that allows you to insert a Gravatar image in your templates.',
-      long_description = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
+      long_description = open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
       keywords = 'django gravatar avatar',
       url = 'https://github.com/skitoo/django-gravatar',
       license = 'New BSD License',
