@@ -6,3 +6,4 @@ dist
 django_gravatar.egg-info
 django_simple_gravatar.egg-info
 .tox
+.coverage
