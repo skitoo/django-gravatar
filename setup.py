@@ -19,7 +19,7 @@ CLASSIFIERS = [
 
 setup(
       author = 'Alexis Couronne',
-      author_email = 'alexis.couronne@scopart.fr',
+      author_email = 'alexis.couronne@gmail.com',
       name = 'django-simple-gravatar',
       version = django_gravatar.__version__,
       description = 'Django Gravatar is a lightweight Django application that allows you to insert a Gravatar image in your templates.',
