@@ -10,6 +10,7 @@ env:
 
 install:
     - pip install tox
+    - pip install python-coveralls
 
 script:
     - tox -e py${TRAVIS_PYTHON_VERSION/./}-${DJANGO_VERSION}  
