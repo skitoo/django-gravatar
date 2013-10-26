@@ -1,6 +1,7 @@
 import os
 
 from django.conf import settings
+from django.core.management import call_command
 
 
 if not settings.configured:
@@ -27,8 +28,5 @@ if not settings.configured:
         TEMPLATE_DEBUG = True,
         SECRET_KEY = 'verysecret',
     )
-
-
-from django.core.management import call_command
 
 call_command('test', 'django_gravatar')
