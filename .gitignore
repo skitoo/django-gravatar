@@ -1,6 +1,8 @@
 .project
 .pydevproject
 *.pyc
+*.sublime-project
+*.sublime-workspace
 build
 dist
 django_gravatar.egg-info
